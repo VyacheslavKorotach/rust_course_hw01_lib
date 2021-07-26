@@ -6,7 +6,7 @@ mod tests {
     }
 }
 
-mod area {
+pub mod area {
     use std::f32::consts::PI;
 
     pub enum TwoDObject {
@@ -22,7 +22,7 @@ mod area {
     }
 }
 
-mod volume {
+pub mod volume {
     use std::f32::consts::PI;
 
     pub enum ThreeDObject {
